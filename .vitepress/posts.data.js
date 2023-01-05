@@ -9,7 +9,16 @@ const cache = new Map()
 
 async function load(asFeed = false) {
   const postDir = path.resolve(__dirname, '../blog')
-  const postsPromises = fs.readdirSync(postDir).map(async (file) => await getPost(file, postDir, asFeed))
+  console.log(`Reading blogs: ${postDir}`)
+  const postFiles = fs.readdirSync(postDir)
+  const postsPromises = []
+  for (let i = 0; i < postFiles.length; i++) {
+    const fn = postFiles[i]
+    if (fn !== 'index.md') {
+      postsPromises.push(getPost(postFiles[i], postDir, asFeed))
+    }
+  }
+  //const postsPromises = fs.readdirSync(postDir).map(async (file) => await getPost(file, postDir, asFeed))
   //.sort((a, b) => b.date.time - a.date.time) TODO ???
   const posts = await Promise.all(postsPromises)
   posts.sort((a, b) => b.date.time - a.date.time)

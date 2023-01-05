@@ -13,7 +13,7 @@
             <nav class="text-sm leading-6 font-semibold text-slate-700 dark:text-slate-200">
               <ul class="flex space-x-8">
                 <li><a class="hover:text-sky-500 dark:hover:text-sky-400" href="/docs/">Docs</a></li>
-                <li><a class="hover:text-sky-500 dark:hover:text-sky-400" href="/blog">Blog</a></li>
+                <li><a class="hover:text-sky-500 dark:hover:text-sky-400" href="/blog/">Blog</a></li>
               </ul>
             </nav>
             <div class="flex items-center border-l border-slate-200 ml-6 pl-6 dark:border-slate-800">
