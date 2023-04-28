@@ -1,23 +1,23 @@
 {
-  "hash": "6e854a59",
-  "browserHash": "be2ed50c",
+  "hash": "4d7707ca",
+  "browserHash": "05e9ce05",
   "optimized": {
     "vue": {
-      "src": "../../../.yarn/cache/vue-npm-3.2.45-06b4b60efe-df60ca80cb.zip/node_modules/vue/dist/vue.runtime.esm-bundler.js",
+      "src": "../../../node_modules/vue/dist/vue.runtime.esm-bundler.js",
       "file": "vue.js",
-      "fileHash": "0182b6d7",
+      "fileHash": "2b0ef160",
       "needsInterop": false
     },
     "@headlessui/vue": {
-      "src": "../../../.yarn/__virtual__/@headlessui-vue-virtual-c3ee30f234/0/cache/@headlessui-vue-npm-1.7.7-62f60ce0d0-6ffb0ba1a6.zip/node_modules/@headlessui/vue/dist/headlessui.esm.js",
+      "src": "../../../node_modules/@headlessui/vue/dist/headlessui.esm.js",
       "file": "@headlessui_vue.js",
-      "fileHash": "331b5f9c",
+      "fileHash": "2c6e5bef",
       "needsInterop": false
     }
   },
   "chunks": {
-    "chunk-NNOFTPF3": {
-      "file": "chunk-NNOFTPF3.js"
+    "chunk-B7UOCPZH": {
+      "file": "chunk-B7UOCPZH.js"
     }
   }
 }

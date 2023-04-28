@@ -20,8 +20,7 @@ import { data as posts } from '../posts.data'
     </div>
     <header class="py-16 sm:text-center">
       <h1 class="mb-4 text-3xl sm:text-4xl tracking-tight text-slate-900 font-extrabold dark:text-slate-200">Latest Updates</h1>
-      <!--<p class="text-lg text-slate-700 dark:text-slate-400">All the latest news, straight from the&nbsp;team.</p>-->
-      <section class="mt-3 max-w-sm sm:mx-auto sm:px-4">
+      <!--<section class="mt-3 max-w-sm sm:mx-auto sm:px-4">
         <h2 class="sr-only">Sign up for our newsletter</h2>
         <form action="https://app.convertkit.com/forms/3181837/subscriptions" method="post" class="flex flex-wrap -mx-2">
           <div class="px-2 grow-[9999] basis-64 mt-3">
@@ -58,7 +57,7 @@ import { data as posts } from '../posts.data'
             </button>
           </div>
         </form>
-      </section>
+      </section>-->
     </header>
     <main class="max-w-3xl mx-auto px-4 sm:px-6 xl:max-w-5xl xl:px-0">
       <div class="relative sm:pb-12 sm:ml-[calc(2rem+1px)] md:ml-[calc(3.5rem+1px)] lg:ml-[max(calc(14.5rem+1px),calc(100%-48rem))]">
