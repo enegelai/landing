@@ -40,7 +40,7 @@ At this stage, the chatbot undergoes high load conditions to evaluate its capaci
 4. **Security Testing**:
 Security testing is crucial to assess the chatbot's capability to protect sensitive user data. It includes verifying the bot's data handling practices and its adherence to data protection regulations.
 
-5. Continuous Testing:
+5. **Continuous Testing**:
 Considering the dynamic nature of AI and Machine Learning models, the testing process must be ongoing. It should iterate and evolve along with the chatbot to ensure its performance remains optimal over time.
 
 ## Conclusion

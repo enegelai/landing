@@ -11,6 +11,11 @@ module.exports = {
   srcDir: '.',
   srcExclude: ['**/README.md', '**/TODO.md'],
   outDir: './dist',
+  markdown: {
+    headers: {
+      level: [2, 6],
+    },
+  },
   themeConfig: {
     repo: 'https://github.com/',
     pages: fetchDocs(),

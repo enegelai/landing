@@ -119,6 +119,7 @@ export default {
           // Only need the ones exist in TOC
           return this.page.headers.some((header) => '#' + header.slug === item.hash)
         })
+      const a = 1
     },
   },
 }
