@@ -7,6 +7,8 @@ twitter: '@enegel'
 
 Contact center operations are continually evolving, and Generative AI is now leading the charge. This innovative technology provides a powerful new way to evaluate performance, with the ability to accurately measure key performance indicators (KPIs) through in-depth analysis of customer and agent interactions. From significant cost savings to enhanced coverage and the ability to create custom KPIs, generative AI is revolutionizing how contact centers assess and optimize their performance.
 
+---
+
 ## Generative AI: The New Era of Performance Measurement
 
 Unlike traditional predictive analytics, Generative AI dives deeper to understand intricate patterns and contexts, and can dissect conversations beyond sentiment analysis. It evaluates the semantic content of discussions to accurately measure critical customer service KPIs such as First Contact Resolution (FCR), Customer Satisfaction (CSAT), and Average Handle Time (AHT), to name a few.
