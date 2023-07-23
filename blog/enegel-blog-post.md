@@ -1,6 +1,6 @@
 ---
 title: "Enegel: CX Testing On a Massive Scale Powered by AI"
-date: 2023-01-01
+date: 2023-02-01
 author: enegel
 twitter: '@enegel'
 ---
