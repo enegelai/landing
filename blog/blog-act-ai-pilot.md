@@ -49,6 +49,6 @@ The AI revolution is well underway, and for businesses across the globe, the man
 
 --- 
 
-[Act now!] (https://enegel.ai/contacts.html 'Sign up for a pilot')
+[Sign up for a pilot](https://enegel.ai/contacts.html)
 
 
