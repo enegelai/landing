@@ -5,14 +5,18 @@ import Home from './Home.vue'
 //import Article from './Article.vue'
 import NotFound from './NotFound.vue'
 import Blog from './Blog.vue'
+import Product from './Product.vue'
+import BusinessCase from './BusinessCase.vue'
 import BlogLayout from './BlogLayout.vue'
 import PageLayout from './PageLayout.vue'
 
 const route = useRoute()
 const isIndex = computed(() => route.path.replace(/index.html$/, '') === '/')
-const isNotFound = computed(() => route.component === NotFound)
+// const isNotFound = computed(() => route.component === NotFound)
 const isBlogHome = computed(() => route.path === '/blog/' || route.path === '/blog.html')
 const isBlogPage = computed(() => route.path.startsWith('/blog/'))
+const isProductPage = computed(() => route.path.endsWith('product/'))
+const isBusinessCasePage = computed(() => route.path.endsWith('businesscase/'))
 </script>
 
 <template>
@@ -21,6 +25,8 @@ const isBlogPage = computed(() => route.path.startsWith('/blog/'))
     <NotFound v-else-if="isNotFound" />
     <Blog v-else-if="isBlogHome" />
     <BlogLayout v-else-if="isBlogPage" />
+    <Product v-else-if="isProductPage" />
+    <BusinessCase v-else-if="isBusinessCasePage" />
     <PageLayout v-else />
   </div>
 </template>

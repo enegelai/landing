@@ -5,6 +5,7 @@ import './fonts.css'
 import Layout from './Layout.vue'
 import NotFound from './NotFound.vue'
 import Blog from './Blog.vue'
+import Product from './Product.vue'
 //import DefaultTheme from 'vitepress/theme'
 
 export default {
