@@ -9,6 +9,7 @@ import Product from './Product.vue'
 import BusinessCase from './BusinessCase.vue'
 import BlogLayout from './BlogLayout.vue'
 import PageLayout from './PageLayout.vue'
+import About from './About.vue'
 
 const route = useRoute()
 const isIndex = computed(() => route.path.replace(/index.html$/, '') === '/')
@@ -17,6 +18,7 @@ const isBlogHome = computed(() => route.path === '/blog/' || route.path === '/bl
 const isBlogPage = computed(() => route.path.startsWith('/blog/'))
 const isProductPage = computed(() => route.path.endsWith('product/'))
 const isBusinessCasePage = computed(() => route.path.endsWith('businesscase/'))
+const isAbout = computed(() => route.path.endsWith('about/'))
 </script>
 
 <template>
@@ -27,6 +29,7 @@ const isBusinessCasePage = computed(() => route.path.endsWith('businesscase/'))
     <BlogLayout v-else-if="isBlogPage" />
     <Product v-else-if="isProductPage" />
     <BusinessCase v-else-if="isBusinessCasePage" />
+    <About v-else-if="isAbout" />
     <PageLayout v-else />
   </div>
 </template>

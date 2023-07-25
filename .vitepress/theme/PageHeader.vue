@@ -16,6 +16,7 @@
                 <li><a class="hover:text-sky-500 dark:hover:text-sky-400" href="/product/">Product</a></li>
                 <li><a class="hover:text-sky-500 dark:hover:text-sky-400" href="/businesscase/">Resources</a></li>
                 <li><a class="hover:text-sky-500 dark:hover:text-sky-400" href="/blog/">Blog</a></li>
+                <li><a class="hover:text-sky-500 dark:hover:text-sky-400" href="/about/">About</a></li>
               </ul>
             </nav>
             <div class="flex items-center border-l border-slate-200 ml-6 pl-6 dark:border-slate-800">
