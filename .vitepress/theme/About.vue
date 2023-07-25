@@ -29,6 +29,19 @@
         '../img/Slava Pic 6.png',
       location: 'Former Genesys CTO',
     },
-    // More people...
+    {
+      name: 'Slava Sayko',
+      role: 'Founder / CTO',
+      imageUrl:
+        '../img/Slava Sayko Pic.png',
+      location: 'Former Genesys SVP of R&D',    
+    },
+    {
+      name: 'Luke Derrin',
+      role: 'CMO',
+      imageUrl:
+        '../img/Luke Derrin Pic.png',
+      location: 'Former Big Wave Surfer'
+    }
   ]
   </script>
