@@ -1,48 +1,39 @@
 {
-  "hash": "8b38d581",
-  "browserHash": "bd8f2a79",
+  "hash": "cc4e3d68",
+  "browserHash": "959e1528",
   "optimized": {
     "vue": {
       "src": "../../../node_modules/vue/dist/vue.runtime.esm-bundler.js",
       "file": "vue.js",
-      "fileHash": "4f6d2b35",
+      "fileHash": "d9f2e101",
       "needsInterop": false
     },
     "vitepress > @vue/devtools-api": {
       "src": "../../../node_modules/@vue/devtools-api/lib/esm/index.js",
       "file": "vitepress___@vue_devtools-api.js",
-      "fileHash": "23c1c16c",
-      "needsInterop": false
-    },
-    "@heroicons/vue/20/solid": {
-      "src": "../../../node_modules/@heroicons/vue/20/solid/esm/index.js",
-      "file": "@heroicons_vue_20_solid.js",
-      "fileHash": "4de0929b",
-      "needsInterop": false
-    },
-    "@headlessui/vue": {
-      "src": "../../../node_modules/@headlessui/vue/dist/headlessui.esm.js",
-      "file": "@headlessui_vue.js",
-      "fileHash": "ea2d0644",
-      "needsInterop": false
-    },
-    "mdi-vue/v3": {
-      "src": "../../../node_modules/mdi-vue/v3.js",
-      "file": "mdi-vue_v3.js",
-      "fileHash": "7331718b",
+      "fileHash": "2294cdf4",
       "needsInterop": false
     },
     "@mdi/js": {
       "src": "../../../node_modules/@mdi/js/mdi.js",
       "file": "@mdi_js.js",
-      "fileHash": "150600c5",
+      "fileHash": "ce4f8326",
+      "needsInterop": false
+    },
+    "@heroicons/vue/20/solid": {
+      "src": "../../../node_modules/@heroicons/vue/20/solid/esm/index.js",
+      "file": "@heroicons_vue_20_solid.js",
+      "fileHash": "7c671db7",
+      "needsInterop": false
+    },
+    "@headlessui/vue": {
+      "src": "../../../node_modules/@headlessui/vue/dist/headlessui.esm.js",
+      "file": "@headlessui_vue.js",
+      "fileHash": "97ad0b7d",
       "needsInterop": false
     }
   },
   "chunks": {
-    "chunk-BY32BOBE": {
-      "file": "chunk-BY32BOBE.js"
-    },
     "chunk-G3CMYKT2": {
       "file": "chunk-G3CMYKT2.js"
     }
