@@ -20,9 +20,9 @@
       </a>
     </div>
 
-    <div class="mt-12 border-t border-gray-200 pt-6 text-right">
+    <!--<div class="mt-12 border-t border-gray-200 pt-6 text-right">
       <OutLink class="mt-10 text-sm text-gray-500 hover:text-gray-900" :href="buildEditURL"> Edit this page on GitHub </OutLink>
-    </div>
+    </div>-->
   </div>
 </template>
 
