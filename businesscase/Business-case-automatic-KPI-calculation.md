@@ -9,6 +9,7 @@ ABC Corporation, a leading telecommunications company, traditionally used manual
 To address these issues, ABC Corporation implemented an automated system to calculate KPIs for their contact center agents.
 
 ---
+
 ## Business Case: Leveraging Automation for Key Performance Indicator (KPI) Calculation in Contact Centers
 ### Implementation
 ABC Corporation introduced an AI-based tool that could accurately and instantly calculate the key metrics, enabling real-time monitoring of performance. The system was designed to automatically pull data from each interaction and process it, providing real-time updates on each agent's performance.
